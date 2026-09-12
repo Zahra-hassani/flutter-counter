@@ -57,4 +57,27 @@ class MyApp extends StatelessWidget {
       ),
     );
   }
+}                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr0nmkYF2p4iC_45ncWyNj8mAQw3Xvp9xgk1CBOdnKGw&s=10",
+                      height: 300, width: 600),
+                  Image.network(
+                      "https://www.travelandleisure.com/thmb/k6P4-qJ4loP9DkUDHAu5WxNNiI8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL--new-zealand-MSTGORGCNTRY0524-60b4b6e4ba6249d2afef5c9e35d38ba8.jpg",
+                      height: 400, width: 600),
+                  Image.network(
+                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8pCphR0ZyJSvw9dbogS72TutsdMGkd3SJ1B-o2mfcUQo8k4OA4vR9HlU&s=10",
+                      height: 783, width: 391),
+                  Image.network(
+                      "https://www.newzealand.com/assets/externally-managed-assets/tbd-assets/tbd-folder-10070633/img-1714059025-6034-3150121-tbd-asset__aWxvdmVrZWxseQo_CropResizeWzk0MCw1MzAsOTAsImpwZyJd.jpg",
+                      height: 450, width: 600)
+                ]
+            ),
+          )
+      ),
+      theme: ThemeData(
+          appBarTheme: AppBarTheme(
+              backgroundColor: Colors.pink[900],
+              foregroundColor: Colors.white
+          )
+      ),
+    );
+  }
 }
