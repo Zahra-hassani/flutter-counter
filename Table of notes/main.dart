@@ -1,4 +1,4 @@
-import 'package:material_ui/material_ui.dart';
+import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 void main(){
@@ -42,7 +42,9 @@ class _NoteAppState extends State<NoteApp>{
   ];
 
   void deleteNote(int id){
+    setState((){
     _todos.removeWhere((x)=> x["id"]== id);
+    });
     
   }
   
